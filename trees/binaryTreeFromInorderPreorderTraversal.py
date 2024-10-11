@@ -11,7 +11,7 @@
 # The left subtree is anything up to the pivot point [:pivot point]
 # The preorder traversal we need to remove the first value since it was the root and we already accounted for it!
 # We can the recursively go through the provided arrays, building the left and right subtrees! Voila!!
-# Time Complexity is O(n) since we need to go through every element of the array
+# Time Complexity is O(n) since we need to go through every element of the array to build the tree. 
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
