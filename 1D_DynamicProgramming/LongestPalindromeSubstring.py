@@ -46,11 +46,6 @@ class Solution:
                 left -= 1
                 right += 1
 
-            
-            palLength = right - left + 1
-            if palLength > len(maxPal):
-                maxPal = s[left+1:right]
-
         return maxPal
             
 s = "ababc"
