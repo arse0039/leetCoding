@@ -1,4 +1,4 @@
-# LeetCode - Longest Common Subsequence - Medium
+# LeetCode -1143 - Longest Common Subsequence - Medium
 """
 Given two strings text1 and text2, return the length of the longest common subsequence between the 
 two strings if one exists, otherwise return 0.
